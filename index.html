@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Easter Break Events</h1>
+        <h2>This online application is only open for those invited.</h2>
+        <p>Event 1 - Ocean Park (Please select the prefered date)</p>
+        
+    </body>
+    
+    <form action="https:api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="10115cee-e9b8-4c04-b563-18c5c67cfca6">
+        <div id="name">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Untitled" required>
+        </div>
+
+        
+
+        <div id="date">
+            <label for="date">Date for Ocean Park:</label>
+            <input type="date" id="date" name='date' required>
+        </div>
+        <br>
+
+        <p>Event 2 - Sleepover (Please confirm if you are joining)</p>
+        <div id="sleepover">
+            <label for="sleepover">Are you joining for Sleepover?</label>
+        </div>
+
+        <div>
+            <label>I am going</label>
+            <input type="radio" name="sleepover" value="Going">
+
+            <label>I am not going!</label>
+            <input type="radio" name="sleepover" value="Not Going!">
+        </div>
+        
+        <button type="submit">Submit Form</button>
+
+        
+
+        <div class="h-captcha" data-captcha="true"></div>
+    </form>
+</html>

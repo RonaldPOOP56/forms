@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+  }
+  
+  input {
+    font-size: 200%;
+  }
+  
+  p {
+    font-size: 200%;
+  }
+  
+  label {
+    font-size: 200%;
+  }
+  
+  div {
+    display: inline-block;
+    margin: 0.5em;
+    background-color: grey;
+    border-radius: 10px;
+  }
